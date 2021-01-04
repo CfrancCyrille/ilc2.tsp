@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | On peut tester cette méthode | 
+| getX | D | simple getteur généré | 
+| getY | D | simple getteur généré | 
+| toString | I | concatenation des deux getteur généré | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | On ne test pas les méthodes de java sur les collections |
+| getCity  | D | On ne test pas les méthode de java sur les collections |
+| getDistance  | T | On peut tester cette méthode |
+| getFitness  | A | Une simple anaylse permet de verifier le fonctionnement de cette méthode |
+| setCity  | I | On ne test pas les méthodes de java sur les collections |
+| tourSize  | I | On ne test pas les méthodes de java sur les collections |
+| toString  | A | Parcours chaque ville et affiche ses coordonées |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | On peut tester cette méthode |
+| getTour  | I | Retourne un element d'un tableau |
+| populationSize  | D | Simple getteur généré |
+| saveTour  | I | Enregistre un index dans un tableau |
 
 ## Functions to test now
 
