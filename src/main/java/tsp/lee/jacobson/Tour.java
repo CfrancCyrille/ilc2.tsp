@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- *  Basis method to manage the population each turn (new individuals, fitness score ...)
+ *  Manage a pop (new individuals, fitness score ...)
+ *
  */
 public class Tour{
 
