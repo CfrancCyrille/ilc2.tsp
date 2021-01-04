@@ -3,6 +3,9 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ *  Basis method to manage the population each turn (new individuals, fitness score ...)
+ */
 public class Tour{
 
     // Holds our tour of cities

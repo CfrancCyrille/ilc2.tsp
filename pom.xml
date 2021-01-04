@@ -32,7 +32,7 @@
 		      <!-- here the phase you need -->
 		      <phase>validate</phase>
 		      <goals>
-		        <goal>copy-resources</goal>
+		        <!-- <goal>copy-resources</goal> -->
 		      </goals>
 		      <configuration>
 		        <outputDirectory>${basedir}/target</outputDirectory>
@@ -98,12 +98,12 @@
 	           </execution>
 	       </executions>
 	       <configuration>
-	           <systemPropertyVariables>
-	               <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-	           </systemPropertyVariables>
-	       </configuration>
-	   </plugin>  
-	 </plugins>  
-	</build>  
-  
-</project>
+			   <!-- <systemPropertyVariables> -->
+			   <!-- <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile> -->
+			   <!-- </systemPropertyVariables> -->
+           </configuration>
+       </plugin>
+     </plugins>
+    </build>
+
+    </project>

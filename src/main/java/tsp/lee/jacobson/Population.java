@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+
+/**
+ * Defin a pop for the genetic algo
+ */
 public class Population {
 
     // Holds population of tours

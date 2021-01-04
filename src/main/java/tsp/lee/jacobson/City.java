@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+
+/**
+ * Define what's a city based on his location
+ */
 public class City {
     int x;
     int y;
