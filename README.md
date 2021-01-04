@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | |
+| getX | D | Il s'agit d'un code généré |
+| getY | D | Il s'agit d'un code généré |
+| toString | I | Affiche les coordonnées des getters. Vérifier les infos |
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Utilise la fonction contains |
+| getCity  | D | Il s'agit d'un getter |
+| getDistance  | T | |
+| getFitness  | T | |
+| setCity  | I | set la ville et d'autres paramètres à vérifier |
+| tourSize  | D | retourne la taille |
+| toString  | I | Affiche les informations de la ville. Vérifier les infos |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | il s'agit d'un getter |
+| populationSize  | D | Il s'agit d'un getter |
+| saveTour  | D | Il s'agit d'un setter |
 
 ## Functions to test now
 
