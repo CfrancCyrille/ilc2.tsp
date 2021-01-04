@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+/**
+ * Classe représentant le chemin que fait le voyageur du commerce
+ */
 public class Tour{
 
     // Holds our tour of cities
