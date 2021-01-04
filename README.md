@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Easy to test | 
+| getX | D | Generated code | 
+| getY | D | Generated code |  
+| toString | I | No test needed, simple function | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Only one function called |
+| getCity  | I | No test needed, simple function |
+| getDistance  | T | can be tested and interesting to test |
+| getFitness  | I | No test needed because the function is a simple division |
+| setCity  | D | One function call and two simple instructions |
+| tourSize  | D | just call of one basic function |
+| toString  | I | No test needed, simple function |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | can be tested and interesting to test abd it's fundamental for the algorithm |
+| getTour  | D | just call of one basic function |
+| populationSize  | D | just call of one basic function |
+| saveTour  | D | just call of one basic function |
 
 ## Functions to test now
 
