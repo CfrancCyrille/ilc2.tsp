@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+/**
+ * This class represents the main class to execute
+ */
 public class TSP_GA {
 
     public static void main(String[] args) {

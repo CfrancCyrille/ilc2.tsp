@@ -2,6 +2,9 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 
+/**
+ * This class represents how a tour manager
+ */
 public class TourManager {
 
     // Holds our cities

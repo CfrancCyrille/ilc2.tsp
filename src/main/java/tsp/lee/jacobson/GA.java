@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+/**
+ * This class represents a generation
+ */
 public class GA {
 
     /* GA parameters */
