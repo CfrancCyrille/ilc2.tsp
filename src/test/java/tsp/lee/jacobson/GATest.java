@@ -18,13 +18,15 @@ public class GATest {
 	// elitism will always be true in our code since no function of the class GA is able to mofify it
 	// and it's a private attribute
 	// So only the case where it is true will be tested
+	
+	Population pop;
 	@Test
 	/**
 	 * Given evolvePopulation
 	 * When elitism is true
-	 * Then first element of newPopulation is the best element of population given in parameter
+	 * Then first element of newPopulation is the best element of population given in parameter And newPop size = pop size
 	 */
-	public void evolvePopulation_elitism_FisrtElemestBestFromLastPop() {
+	public void evolvePopulation_elitism_FisrtElemestBestFromLastPopAndSamePopSize() {
 		TourManager.addCity(c1);
 		TourManager.addCity(c2);
 		TourManager.addCity(c3);
@@ -48,7 +50,7 @@ public class GATest {
 		t3.setCity(3, c3);
 		
 		// old population
-		Population pop = new Population(3, false);
+		pop = new Population(3, false);
 		pop.saveTour(0, t1);
 		pop.saveTour(1, t2);
 		pop.saveTour(2, t3);
@@ -61,8 +63,14 @@ public class GATest {
 		int actualDistance = newPop.tours[0].getDistance();
 		
 		assertEquals(expectedDistance, actualDistance);
-
+		
+		// check population size
+		int expected = pop.populationSize();
+		int actual = newPop.populationSize();
+		
+		assertEquals(expected, actual);
 		
 	}
+	
 
 }
