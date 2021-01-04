@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * A genetic population to ge the best Tour,
+ * which is the one with the lowest travelling distance
+ */
 public class Population {
 
     // Holds population of tours

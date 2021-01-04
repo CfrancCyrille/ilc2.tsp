@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Represents a City as a 2D Point
+ * for the Salesman to get through
+ */
 public class City {
     int x;
     int y;
