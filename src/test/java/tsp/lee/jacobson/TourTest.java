@@ -18,7 +18,6 @@ public class TourTest {
 	@Test
 	public void testGetDistance_Sup0()
 	{
-
 		City c1 = new City(1,1);
 		City c2 = new City(2,2);
 		City c3 = new City(3,3);
@@ -33,7 +32,6 @@ public class TourTest {
 		int expected = 4;
 
 		assertEquals(expected,t.getDistance());
-
 
 	}
 }
