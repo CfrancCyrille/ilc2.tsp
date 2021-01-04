@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | code généré : getter | 
+| getY | D | code généré : getter | 
+| toString | I | affiche les getter pour x et y| 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | appelle une fonction déjà définie (contains) |
+| getCity  | D | getter |
+| getDistance  | T |  |
+| getFitness  | T |  |
+| setCity  | I | vérifié le bon changement des valeurs |
+| tourSize  | D | utilise la fonction size() |
+| toString  | I | regarder si les espaces sont bon, les getters aussi |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | getter en fonction de l'index |
+| populationSize  | D | appelle la fonction length |
+| saveTour  | D | setter en fonction de l'index change le tour |
 
 ## Functions to test now
 
