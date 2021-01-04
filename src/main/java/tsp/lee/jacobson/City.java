@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+/***
+ * Permet de modéliser une ville
+ */
 public class City {
     int x;
     int y;

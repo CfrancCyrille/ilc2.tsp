@@ -3,6 +3,9 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Permet de modéliser un tour
+ */
 public class Tour{
 
     // Holds our tour of cities
