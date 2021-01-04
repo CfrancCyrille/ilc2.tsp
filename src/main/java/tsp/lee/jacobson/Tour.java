@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Tour est la classe représentant une tournée de l'algorithme.
+ * @author Pierre-Nicolas
+ */
 public class Tour{
 
     // Holds our tour of cities

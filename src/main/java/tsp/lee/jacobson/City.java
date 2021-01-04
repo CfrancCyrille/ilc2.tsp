@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * City est la classe représentant une ville.
+ * @author Pierre-Nicolas
+ */
 public class City {
     int x;
     int y;

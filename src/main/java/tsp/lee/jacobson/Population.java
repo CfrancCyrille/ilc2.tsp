@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Population est la classe représentant une population de l'algorithme.
+ * @author Pierre-Nicolas
+ */
 public class Population {
 
     // Holds population of tours

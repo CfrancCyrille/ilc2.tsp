@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | On peut tester cette méthode. | 
+| getX | D | Cette méthode est un setter autogénéré. | 
+| getY | D | Cette méthode est un setter autogénéré. | 
+| toString | D | Cette méthode est un appel à deux setters autogénérés dont le résultat est concaténé. | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | On ne teste pas la méthode contains de la classe ArrayList de Java. |
+| getCity  | D | Cette méthode est un setter autogénéré. |
+| getDistance  | T | On peut tester cette méthode. |
+| getFitness  | T | On peut tester cette méthode car elle modifie l'attribut fitness avant de le renvoyer en fonction de sa valeur précédente. |
+| setCity  | D | On ne teste pas la méthode set de la classe ArrayList de Java.  |
+| tourSize  | D | On ne teste pas la méthode size de la classe ArrayList de Java. |
+| toString  | D | Cette méthode parcourt et affiche chaque ville. Elle pourrait être autogénérée. |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | On peut tester cette méthode. Elle renvoie le meilleur individu d'une population en fonction de son fitness. |
+| getTour  | D | On ne teste pas la méthode de sélection de la structure de donnée array de Java. |
+| populationSize  | D | On ne teste pas la méthode de modification de la structure de donnée array de Java. |
+| saveTour  | D |  On ne teste pas la méthode lenght de la classe Array de Java. |
 
 ## Functions to test now
 
