@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/*
+ * CLASS City
+ * This class defines the model of the City class. 
+ */
 public class City {
     int x;
     int y;
