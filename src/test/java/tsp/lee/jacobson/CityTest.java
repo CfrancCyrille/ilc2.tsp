@@ -21,4 +21,18 @@ public class CityTest {
 		assertEquals(expected, actual,0);
 	}
 
+	/**
+	 * GIVEN distanceTo
+	 * WHEN ville1(1,1) et ville(1,1) même ville
+	 * THEN 0
+	 */
+	@Test
+	public void testDistanceTo_ville1_ville1_0() {
+		City ville1 = new City(1,1);
+
+		double expected =0;
+		double actual =ville1.distanceTo(ville1);
+		assertEquals(expected, actual,0);
+	}
+
 }
