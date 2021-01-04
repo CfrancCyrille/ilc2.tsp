@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ *  Manage a pop (new individuals, fitness score ...)
+ *
+ */
 public class Tour{
 
     // Holds our tour of cities

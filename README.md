@@ -20,33 +20,35 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 ### Class City
 
+### Class City
+
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | default getter | 
+| getY | D | default getter | 
+| toString | D | classic toString | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | uses arrayList embedded method |
+| getCity  | D | classic getter / uses arrayList embedded method |
+| getDistance  | T |  |
+| getFitness  | D | getter |
+| setCity  | D | setter / uses arrayList embedded method |
+| tourSize  | D | getter / uses arrayList embedded method |
+| toString  | D | toString |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | uses Array default method |
+| populationSize  | D | uses Array default method |
+| saveTour  | D | uses Array default method |
 
 ## Functions to test now
 
