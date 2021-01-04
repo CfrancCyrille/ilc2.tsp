@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
-
+/**
+ * 
+ * This class represents a Population
+ *
+ */
 public class Population {
 
     // Holds population of tours

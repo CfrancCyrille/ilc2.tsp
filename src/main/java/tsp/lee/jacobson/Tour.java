@@ -2,7 +2,11 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * 
+ * This class represents a Tour
+ *
+ */
 public class Tour{
 
     // Holds our tour of cities
