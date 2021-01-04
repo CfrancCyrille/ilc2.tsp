@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Population is the class representing a population of the algorithm.
+ * @author omegaBionic
+ */
 public class Population {
 
     // Holds population of tours

@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Tour is the class representing a tour of the algorithm.
+ * @author omegaBionic
+ */
 public class Tour{
 
     // Holds our tour of cities
