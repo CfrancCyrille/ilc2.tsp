@@ -7,8 +7,15 @@ import org.junit.Test;
 public class CityTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testDistanceTo() {
+		City cDeBase = new City(1,1);
+		City c = new City(2,2);
+
+		double expected = Math.sqrt( 2 );
+		double actual = cDeBase.distanceTo(c);
+
+		assertEquals(expected, actual, 0);
+
 	}
 
 }
