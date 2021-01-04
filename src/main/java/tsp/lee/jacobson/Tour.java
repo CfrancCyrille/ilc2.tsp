@@ -3,6 +3,11 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/*
+ * CLASS Tour
+ * Stores the path the algorithm took.
+ */
+
 public class Tour{
 
     // Holds our tour of cities

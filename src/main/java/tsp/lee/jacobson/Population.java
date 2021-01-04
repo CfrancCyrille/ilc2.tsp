@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/*
+ * CLASS Population
+ * This class manages the population of our algorithm.
+ */
+
 public class Population {
 
     // Holds population of tours

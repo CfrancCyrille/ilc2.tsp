@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Class to test | 
+| getX | I | No need to test a getter | 
+| getY | I | No need to test a getter | 
+| toString | A | We analyse the toString method | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | T | Test the result of the function |
+| getCity  | I | No need to test a getter |
+| getDistance  | T | Test the result of the method |
+| getFitness  | I | No need to test a setter |
+| setCity  | I | No need to test a setter |
+| tourSize  | I | No need to test a getter |
+| toString  | A | We analyse the toString method |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | I | No need to test a getter |
+| getTour  | I | No need to test a getter |
+| populationSize  | I | No need to test a getter |
+| saveTour  | D | This class saves data. No need to test |
 
 ## Functions to test now
 
