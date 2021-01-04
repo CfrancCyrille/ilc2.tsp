@@ -22,31 +22,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | involves mathematical operations| 
+| getX | D | getter | 
+| getY | D | getter | 
+| toString | I | uses getX and getY | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | A | can be verified by a static analyze |
+| getCity  | D | getter |
+| getDistance  | T | a static analyze is not enough |
+| getFitness  | D | getter |
+| setCity  | D | setter |
+| tourSize  | I | can be easily checked |
+| toString  | I | uses simple getters |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | it's prefered to be tested |
+| getTour  | D | getter |
+| populationSize  | I | simple to verify |
+| saveTour  | T | it's prefered to be tested |
 
 ## Functions to test now
 
