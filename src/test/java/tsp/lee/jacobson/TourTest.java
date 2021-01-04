@@ -12,7 +12,7 @@ public class TourTest {
 	/*
 	 * GIVEN_WHEN_THEN
 	 */
-	public void testGetDistance_distanceNot0_distance() {
+	public void testGetDistance_distance0_distance() {
 		
 		ArrayList<City> cities = new ArrayList<City>();
 		cities.add(new City());
