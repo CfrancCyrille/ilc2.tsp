@@ -16,37 +16,44 @@
 13. that ends
 
 ## Analyze IADT functions
-Hereafter, for each classes give function to be tested. Remember that all functions does not have to be tested, some code can be checked by a simple inspection or an analyse, another code can be validated by definition (rules, etc) the others function can be tecsted by unit tests, integration tests or validation tests (IADT: Inspect, Analyse, Define, Test). 
+Hereafter, for each classes give function to be tested. Remember that all functions does not have to be tested, some code can be checked by a simple inspection or an analyse, another code can be validated by definition (rules, etc) the others function can be tecsted by unit tests, integration tests or validation tests (IADT: Inspect, Analyse, Define, Test).
+ 
+| Validation Mode |   Why ? When ?  |
+| :-------------: | :-------------: |
+| I: Inspect | No test needed, just a simple static test (visual) on a subset of classes (commentaries, indentation, etc.) |
+| A: Analyze | Not easy to test but the algorithm is well know and can be check by a static analyze |
+| D: Def/Dem | You can Demonstrate the function or by Definition the function needs not test (generate code, call functions, etc.)|
+| T: Test | the function can be easily test |
 
 ### Class City
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | default getter | 
+| getY | D | default getter | 
+| toString | D | classic toString | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | uses arrayList embedded method |
+| getCity  | D | classic getter / uses arrayList embedded method |
+| getDistance  | T |  |
+| getFitness  | D | getter |
+| setCity  | D | setter / uses arrayList embedded method |
+| tourSize  | D | getter / uses arrayList embedded method |
+| toString  | D | toString |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | uses Array default method |
+| populationSize  | D | uses Array default method |
+| saveTour  | D | uses Array default method |
 
 ## Functions to test now
 
