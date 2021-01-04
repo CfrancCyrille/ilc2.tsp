@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+ /**
+ * Classe representant une ville
+ * possede deux attribut entier x et y pour les coordonées
+ */
 public class City {
     int x;
     int y;
