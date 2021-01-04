@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Classe representant un tour
+ * possede une liste de ville et une distance totale
+ */
 public class Tour{
 
     // Holds our tour of cities
