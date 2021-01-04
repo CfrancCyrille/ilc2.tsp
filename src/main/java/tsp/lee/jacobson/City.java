@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * City is the class representing a city.
+ * @author omegaBionic
+ */
 public class City {
     int x;
     int y;
