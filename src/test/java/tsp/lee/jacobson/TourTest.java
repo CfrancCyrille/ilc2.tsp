@@ -7,6 +7,11 @@ import org.junit.Test;
  * 
  * No need to test the case when distance == 0 for the function getDistance
  * Because it will just return the distance
+ * This test class should be run seperately from the GA test class, to solve this issue
+ * we either need to make thee static properties of TourManager public or create a static
+ * function to reset them
+ * Because of this issue we also need to run all the tests in this class together since the 
+ * configuration of TourManager is affected by each function and is needed for the next
  *
  */
 public class TourTest {
